@@ -1,0 +1,5 @@
+f = open('text.txt', encoding='utf8')
+lines = f.read(10)
+print(lines)
+print(f.read())
+f.close()
